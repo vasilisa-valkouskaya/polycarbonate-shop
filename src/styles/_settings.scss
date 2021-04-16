@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courier+Prime&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+
+@font-face {
+    font-family: "Sports World";
+    src: url("../../assets/fonts/SportsWorld-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Unisans Heavy";
+    src: url("../../assets/fonts/UnisansHeavy.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Yermak Regular";
+    src: url("../../assets/fonts/Yermak-Regular.ttf") format("truetype");
+}
+
+
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+a {
+    text-decoration: none;
+
+    &:focus {
+        outline: none;
+    }
+}
+
+
+input {
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    border: none;
+    padding: 0 10px;
+
+    &::placeholder {
+        font-weight: 600;
+    }
+
+}
+
+button {
+    overflow: hidden;
+    transition-duration: 0.2s;
+    border: none;
+
+    &:focus-within {
+        outline: none;
+    }
+}
+
+p {
+    line-height: 24px;
+}
